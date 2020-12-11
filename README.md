@@ -3,12 +3,12 @@
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
 El fin de este proyecto es educativo, e incluye la solución a los ejercicios propuestos en el Angular Bootcamp.
 
-# Pasos a seguir
+## Pasos a seguir
 
-Clonar este repositorio.
-Cambiar al directorio de la aplicación.
-Ejecutar `npm install`.
-Ejecutar `ng serve -o`.
+1. Clonar este repositorio.
+2. Cambiar al directorio de la aplicación.
+3. Ejecutar `npm install`.
+4. Ejecutar `ng serve -o`.
 
 ## Funcionalidad
 
