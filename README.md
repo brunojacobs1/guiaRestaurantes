@@ -1,25 +1,16 @@
 # GuiaRestaurantes
 
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
-El fin de este proyecto es para fines educativos, está incompleto para que los estudiaste practiquen.
+El fin de este proyecto es educativo, e incluye la solución a los ejercicios propuestos en el Angular Bootcamp.
 
-## Actividades a realizar
+# Pasos a seguir
 
-1. Lo primero es descargas las fuentes de este proyecto.
-2. Instalamos las dependencias con `npm install`.
-3. Levantamos el servidor de desarrollo con `ng serve -o`.
-4. Realizar el objetivo del ejercicio.
+Clonar este repositorio.
+Cambiar al directorio de la aplicación.
+Ejecutar `npm install`.
+Ejecutar `ng serve -o`.
 
-## Objetivo del proyecto
+## Funcionalidad
 
-Estamos creado un guía de restaurantes en el cual colocamos el nombre y la ciudad donde se encuentra dicho restaurante. De tal modo que al llenar los campos y presionar el botón "agregar" se incluirá en la lista.
-
-## Presentación
-
-Las fuentes serán revisadas desde github o stackblitz.
-
-## Actividades extra (más puntos)
-
-- Validar que los campos estén llenos.
-- Al estar ambos campos llenos y presionar <kbd>enter</kbd> se agregue.
-- Validar que el mismo restaurante no exista.
+Se puede agregar un restaurante a la guía, colocando su nombre y la ciudad. Se puede agregar presionando el botón "agregar" o pulsando la tecla <kbd>enter</kbd>.
+La aplicación valida que los campos estén llenos y que no exista el mismo restaurante en la guía.
