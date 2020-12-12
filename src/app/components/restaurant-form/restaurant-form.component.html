@@ -1,0 +1,40 @@
+<div class="table100 mb-4">
+  <form
+    #form="ngForm"
+    (ngSubmit)="agregar({ name: restaurantName, city: restaurantCity }, form)"
+  >
+    <div class="row">
+      <div class="col">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Nombre del restaurante"
+          [(ngModel)]="restaurantName"
+          name="restaurantName"
+          required
+          #nameInput="ngModel"
+        />
+        <div *ngIf="nameInput.errors?.required">
+          Este campo es requerido
+        </div>
+      </div>
+      <div class="col">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Ciudad"
+          [(ngModel)]="restaurantCity"
+          name="restaurantCity"
+          required
+          #cityInput="ngModel"
+        />
+        <div *ngIf="cityInput.errors?.required">
+          Este campo es requerido
+        </div>
+      </div>
+      <div class="col">
+        <button class="btn btn-info" type="submit">agregar</button>
+      </div>
+    </div>
+  </form>
+</div>
